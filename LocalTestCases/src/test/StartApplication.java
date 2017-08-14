@@ -43,6 +43,7 @@ capabilities.setCapability("platformVersion", "6.0.1");
 
 capabilities.setCapability("appPackage",appPackage);
 capabilities.setCapability("appActivity",appActivity); 
+capabilities.setCapability("autoGrantPermissions", "true");//for granting all permissions
 capabilities.setCapability("newCommandTimeout", 1000); 
 driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
 return driver;
