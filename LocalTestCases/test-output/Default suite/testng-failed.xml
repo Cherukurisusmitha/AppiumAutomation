@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="test.Contacts_Test">
+        <methods>
+          <include name="exportContacts"/>
+          <include name="deleteContact"/>
+          <include name="deletebatch"/>
+          <include name="importContacts"/>
+          <include name="createContact"/>
+          <include name="getcontactsCount"/>
+        </methods>
+      </class> <!-- test.Contacts_Test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
